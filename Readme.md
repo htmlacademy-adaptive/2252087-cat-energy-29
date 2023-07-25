@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [kirok](https://up.htmlacademy.ru/adaptive/29/user/2252087).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena). 
 
 ---
 
