@@ -1,6 +1,13 @@
 @import "variables";
-
-
-body {
-  //  background-color: $yellow;
-}
+@import "page";
+@import "header";
+@import "container";
+@import "logo";
+@import "button";
+@import "main";
+@import "promo";
+@import "services";
+@import "service";
+@import "example";
+@import "about";
+@import "footer";
