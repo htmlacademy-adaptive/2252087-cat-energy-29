@@ -1,0 +1,33 @@
+.product__title {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+  color: $special_dark-grey-2;
+}
+
+.product__link {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.product__title {
+  font-size: 16px;
+  line-height: 20px;
+  color: $black-2;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Oswald", "Arial", sans-serif;
+}
+
+.product__text {
+  font-size: 12px;
+  line-height: 16px;
+  color: $special_dark-grey;
+  text-align: center;
+  font-family: "Lato", "Arial", sans-serif;
+}

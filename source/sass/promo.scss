@@ -1,4 +1,29 @@
 .promo__poster {
   background-color: $basic_green-2;
-  background-image: url("../img/content/index-background-desktop-2.jpg");
+  background-image: url("../img/content/green_cat.jpg");
+}
+
+.promo__title {
+  margin: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: $white;
+  text-align: center;
+}
+
+.promo__slogan {
+  margin: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  line-height: 14px;
+  text-align: center;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.promo__link {
+   font-family: "Oswald", "Arial", sans-serif;
+   text-align: center;
+   color: $white;
+   text-transform: uppercase;
 }
