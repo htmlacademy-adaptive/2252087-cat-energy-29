@@ -1,21 +1,25 @@
 .gift {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  padding-left: 20px;
   background-color: $basic_green;
   background-image: url("../img/content/cat__washing_machine.jpg");
   background-repeat: no-repeat;
 }
 
 .gift__img {
-  margin: 0;
-  padding-top: 58.91px;
-  padding-right: 101px;
-  padding-bottom: 48.02px;
-  padding-left: 101px;
+  max-width: 78px;
+  margin-bottom: 48.02px;
 }
 
 .gift__slogan {
-  padding-right: 61px;
+  max-width: 161px;
+  margin: 0;
   padding-bottom: 43.02px;
-  padding-left: 58px;
   font-size: 16px;
   line-height: 20px;
   color: $white;
