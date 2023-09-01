@@ -1,4 +1,6 @@
 .header {
+  border-bottom: 1px solid $border-grey;
+
   .container {
     display: flex;
     flex-direction: row;

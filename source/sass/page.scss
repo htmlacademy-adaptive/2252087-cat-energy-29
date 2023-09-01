@@ -1,3 +1,18 @@
+input,
+textarea,
+select,
+button {
+    font: inherit;
+}
+
+/* Позволяет задавать размеры так, как они указаны в макете */
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .page {
   margin: 0;
   padding: 0;
@@ -10,7 +25,18 @@
   color: $special_dark-grey;
 }
 
+.page--index {
+  .header {
+    border-bottom: none;
+  }
+}
+
 .page__title {
+  margin: 0;
+  padding-top: 27px;
+  padding-right: 41px;
+  padding-bottom: 37px;
+  padding-left: 20px;
   font-size: 36px;
   line-height: 36px;
   color: $black;
