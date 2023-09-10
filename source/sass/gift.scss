@@ -1,4 +1,9 @@
 .gift {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.gift__wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +15,7 @@
   background-image: url("../img/content/cat__washing_machine.jpg");
   background-repeat: no-repeat;
 }
+
 
 .gift__img {
   max-width: 78px;
