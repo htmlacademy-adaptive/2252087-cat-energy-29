@@ -32,15 +32,15 @@
 }
 
 .form__fieldset--start {
-    .form__group {
-      justify-content: flex-start;
-    }
+  .form__group {
+    justify-content: flex-start;
+  }
 }
 
 .form__fieldset--center {
-    .form__group {
-      flex-direction: column;
-    }
+  .form__group {
+    flex-direction: column;
+  }
 }
 
 .form__fieldset--submit {

@@ -2,15 +2,14 @@ input,
 textarea,
 select,
 button {
-    font: inherit;
+  font: inherit;
 }
 
 /* Позволяет задавать размеры так, как они указаны в макете */
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .page {
