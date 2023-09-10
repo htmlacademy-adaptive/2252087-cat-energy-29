@@ -1,0 +1,41 @@
+.services {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.services__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.services__item {
+  margin-bottom: 20px;
+}
+
+.services__item:last-child {
+  margin-bottom: 0;
+}
+
+.service__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 37px;
+  color: $black;
+  font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.service__text {
+  line-height: 18px;
+  font-family: "Lato", "Arial", sans-serif;
+  color: $special_dark-grey;
+}
+
+.service__link {
+  font-size: 16px;
+  line-height: 16px;
+  color: $black;
+  text-transform: uppercase;
+  font-family: "Oswald", "Arial", sans-serif;
+}

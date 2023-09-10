@@ -1,0 +1,54 @@
+.promo {
+  .container {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.promo__info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 27px;
+  padding-right: 20px;
+  padding-left: 20px;
+  z-index: 3;
+}
+
+.promo__poster {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  background-color: $basic_green-2;
+  background-image: url("../img/content/green_cat.jpg");
+}
+
+.promo__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: $white;
+  text-align: center;
+}
+
+.promo__slogan {
+  margin: 0;
+  margin-bottom: 29px;
+  font-family: "Oswald", "Arial", sans-serif;
+  line-height: 14px;
+  text-align: center;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.promo__link {
+  font-family: "Oswald", "Arial", sans-serif;
+  text-align: center;
+  color: $white;
+  text-transform: uppercase;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.social {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid $border-grey;
+  border-top: 1px solid $border-grey;
+}
+
+.social__item {
+  margin-right: 24px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}

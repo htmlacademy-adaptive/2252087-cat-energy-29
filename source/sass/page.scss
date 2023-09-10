@@ -1,0 +1,69 @@
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* Позволяет задавать размеры так, как они указаны в макете */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: $special_dark-grey;
+}
+
+.page--index {
+  .header {
+    border-bottom: none;
+  }
+}
+
+.page--form,
+.page--catalog {
+  .contacts {
+    background-color: $basic_grey;
+  }
+}
+
+.page__title {
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 37px;
+  font-size: 36px;
+  line-height: 36px;
+  color: $black;
+  font-family: "Oswald", "Arial", sans-serif;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
