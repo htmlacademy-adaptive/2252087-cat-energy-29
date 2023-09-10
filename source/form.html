@@ -27,13 +27,15 @@
   </header>
   <!-- Основное содержимое страницы -->
   <main class="main page__main">
-    <h1 class="page__title">Подбор программы</h1>
     <section class="request">
-      <h2 class="visually-hidden">Анкета для подбора программы</h2>
       <div class="container">
-        <p class="request__text">Заполните анкету, и мы подберем<br>программу питания для вашего кота</p>
+        <header class="request__header">
+          <h1 class="page__title">Подбор программы</h1>
+          <p class="request__text">Заполните анкету, и мы подберем<br>программу питания для вашего кота</p>
+        </header>
+        <h2 class="visually-hidden">Анкета для подбора программы</h2>
         <form class="request__form form" action="#">
-          <fieldset class="form__fieldset">
+          <fieldset class="form__fieldset form__fieldset--border">
             <legend class="visually-hidden">Данные кота</legend>
             <div class="form__group">
               <label class="form__label" for="name">Имя:*</label>
@@ -48,11 +50,11 @@
               <input class="form__input" type="number" name="age" id="age" placeholder="7">
             </div>
           </fieldset>
-          <fieldset class="form__fieldset">
+          <fieldset class="form__fieldset form__fieldset--reversed form__fieldset--border">
             <legend class="visually-hidden">Цель</legend>
             <div class="form__group">
               <label class="form__label" for="weight-loss">Похудение</label>
-              <input class="form__input form__radio" type="radio" name="target" id="weight-loss" value="weight-loss">
+              <input class="form__input form__radio" type="radio" name="target" id="weight-loss" value="weight-loss" checked>
             </div>
             <div class="form__group">
               <label class="form__label" for="weight-gain">Набор массы</label>
@@ -75,16 +77,14 @@
             </div>
           </fieldset>
           <fieldset class="form__fieldset">
-            <legend class="form__title">Комментарий</legend>
+            <legend class="form__title form__title--margin-none">Комментарий</legend>
             <div class="form__group">
-              <label class="form__label" for="comment">Комментарий</label>
-              <textarea class="form__input form__textarea" id="comment" name="comment" rows="4" cols="50">
-                  Расскажите обо всех повадках кота
-                </textarea>
+              <label class="form__label visually-hidden" for="comment">Комментарий</label>
+              <textarea class="form__input form__textarea" id="comment" name="comment" rows="4" cols="50" placeholder="Расскажите обо всех повадках кота"></textarea>
             </div>
           </fieldset>
-          <fieldset class="form__fieldset">
-            <legend class="form__title">Дополнительно</legend>
+          <fieldset class="form__fieldset form__fieldset--start">
+            <legend class="form__title form__title--margin-none">Дополнительно</legend>
             <div class="form__group">
               <input class="form__input" type="checkbox" id="sweetener" name="sweetener" checked>
               <label class="form__label" for="sweetener">сахарозаменитель</label>
@@ -102,14 +102,16 @@
               <label class="form__label" for="vitamin">витамины</label>
             </div>
           </fieldset>
-          <input class="form__input" type="submit" value="отправить заявку">
+          <fieldset class="form__fieldset form__fieldset--center form__fieldset--submit">
+            <div class="form__group">
+              <input class="button button--green form__input request__submit" type="submit" value="отправить заявку">
+              <small class="request__small">* — Обязательные поля</small>
+            </div>
+          </fieldset>
         </form>
-        <p class="request__text">
-          <small class="request__small">* — Обязательные поля</small>
-        </p>
       </div>
     </section>
-    <section class="contacts contacts--form">
+    <section class="contacts">
       <div class="container">
         <h2 class="visually-hidden">Контакты магазина</h2>
         <address class="contacts__address address">

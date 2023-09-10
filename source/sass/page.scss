@@ -31,15 +31,21 @@ button {
   }
 }
 
+.page--form,
+.page--catalog {
+  .contacts {
+    background-color: $basic_grey;
+  }
+}
+
 .page__title {
   margin: 0;
   padding-top: 27px;
-  padding-right: 41px;
   padding-bottom: 37px;
-  padding-left: 20px;
   font-size: 36px;
   line-height: 36px;
   color: $black;
+  font-family: "Oswald", "Arial", sans-serif;
 }
 
 .img {

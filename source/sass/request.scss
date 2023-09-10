@@ -1,13 +1,28 @@
+.request {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.request__header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .request__text {
   margin: 0;
-  padding-left: 20px;
-  padding-right: 74px;
-  padding-bottom: 39px;
+  padding-bottom: 6px;
   font-size: 14px;
   line-height: 18px;
   color: $black;
   font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
+}
+
+.request__submit {
+  width: 100%;
+  margin-bottom: 21px;
 }
 
 .request__small {

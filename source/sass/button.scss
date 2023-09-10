@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.button--green {
+  background-color: $basic_green;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: $white;
+  text-transform: uppercase;
+}
