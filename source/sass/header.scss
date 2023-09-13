@@ -10,3 +10,13 @@
     padding-bottom: 14px;
   }
 }
+
+.header__navigation {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .header__navigation {
+    display: block;
+  }
+}

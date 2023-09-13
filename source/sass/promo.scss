@@ -25,6 +25,13 @@
   background-image: url("../img/content/green_cat.jpg");
 }
 
+@media (min-width: $tablet-width) {
+  .promo__poster {
+   display: none;
+ }
+}
+
+
 .promo__title {
   margin: 0;
   margin-bottom: 25px;
@@ -35,6 +42,12 @@
   text-align: center;
 }
 
+@media (min-width: $tablet-width) {
+  .promo__title {
+    color: $black;
+  }
+}
+
 .promo__slogan {
   margin: 0;
   margin-bottom: 29px;
@@ -43,6 +56,12 @@
   text-align: center;
   color: $white;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .promo__slogan {
+    color: $black;
+  }
 }
 
 .promo__link {
