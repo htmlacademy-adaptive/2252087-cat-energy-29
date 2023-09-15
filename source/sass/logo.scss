@@ -1,20 +1,6 @@
-@media (min-width: $tablet-width) {
-  .logo__social {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-}
-
 .logo {
   display: flex;
   align-items: center;
-}
-
-@media (min-width: $tablet-width) {
-  .logo {
-    //margin-right: 160px;
-  }
 }
 
 .logo__img {
@@ -24,4 +10,13 @@
 .logo__img-text {
   height: 18px;
   width: 101px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo__img-text {
+    display: flex;
+    width: 128px;
+    max-width: 128px;
+    height: 24px;
+  }
 }

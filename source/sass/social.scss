@@ -13,6 +13,15 @@
   border-top: 1px solid $border-grey;
 }
 
+@media (min-width: $tablet-width) {
+  .social{
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: none;
+    border-bottom: none;
+  }
+}
+
 .social__item {
   margin-right: 24px;
 }
