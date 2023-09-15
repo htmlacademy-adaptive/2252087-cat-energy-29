@@ -4,10 +4,35 @@
   align-items: flex-start;
 }
 
+@media (min-width: $tablet-width) {
+  .stats {
+    justify-content: flex-start;
+    max-width: 65%;
+  }
+}
+
 .stats__stat {
   max-width: 124px;
   width: 124px;
   margin-bottom: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .stats__stat {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-right: 43px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    width: 162px;
+    max-width: 162px;
+  }
+  .stats__stat:last-child {
+    margin-right: 0;
+  }
 }
 
 .stats__value {
@@ -17,6 +42,14 @@
   text-align: center;
   color: $black;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .stats__value {
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 400;
+  }
 }
 
 .stats__label {

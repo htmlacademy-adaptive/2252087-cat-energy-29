@@ -24,6 +24,14 @@ button {
   color: $special_dark-grey;
 }
 
+@media (min-width: $tablet-width) {
+  .page {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+
 .page--index {
   .header {
     border-bottom: none;

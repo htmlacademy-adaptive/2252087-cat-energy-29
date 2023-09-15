@@ -8,6 +8,15 @@
   padding-bottom: 26px;
 }
 
+@media (min-width: $tablet-width) {
+  .address {
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+  }
+}
+
 .address__slogan {
   margin: 0;
   font-size: 16px;
@@ -15,6 +24,13 @@
   font-family: "Oswald", "Arial", sans-serif;
   color: $black-2;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .address__slogan {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 
 .address__address {
@@ -26,4 +42,24 @@
 .address__slogan,
 .address__address {
   max-width: 140px;
+}
+
+@media (min-width: $tablet-width) {
+  .address__address {
+    width: 160px;
+    max-width: 160px;
+    font-size: 16px;
+    text-align: right;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .address__address span {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .address__address span:last-child {
+    margin-bottom: 0;
+  }
 }

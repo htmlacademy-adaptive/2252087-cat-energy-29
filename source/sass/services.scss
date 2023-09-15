@@ -3,6 +3,12 @@
   padding-bottom: 20px;
 }
 
+@media (min-width: $tablet-width) {
+  .services  {
+    padding-bottom: 45px;
+  }
+}
+
 .services__list {
   margin: 0;
   padding: 0;
