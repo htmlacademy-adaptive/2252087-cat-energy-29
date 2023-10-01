@@ -39,7 +39,8 @@ button {
 }
 
 @media (min-width: $tablet-width) {
-  .page--form, .page--catalog {
+  .page--form,
+  .page--catalog {
     .header {
       border-bottom: none;
     }
