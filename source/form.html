@@ -16,7 +16,20 @@
         <img class="logo__img" src="img/pictures/logo-mobile.svg" alt="logo cat energy">
         <img class="logo__img-text" src="img/content/logo-2.svg" alt="cat energy">
       </a>
-      <button class="button" type="button">
+      <nav class="navigation header__navigation">
+        <ul class="navigation__list main-menu">
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="/">Главная</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="main-menu__item  main-menu__item--active">
+            <a class="main-menu__link" href="form.html">Подбор программы</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button button--burger" type="button">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line y1="3" x2="24" y2="3" stroke="black" stroke-width="2" />
           <line y1="11" x2="24" y2="11" stroke="black" stroke-width="2" />
@@ -52,17 +65,19 @@
           </fieldset>
           <fieldset class="form__fieldset form__fieldset--reversed form__fieldset--border">
             <legend class="visually-hidden">Цель</legend>
-            <div class="form__group">
-              <label class="form__label" for="weight-loss">Похудение</label>
-              <input class="form__input form__radio" type="radio" name="target" id="weight-loss" value="weight-loss" checked>
-            </div>
-            <div class="form__group">
-              <label class="form__label" for="weight-gain">Набор массы</label>
-              <input class="form__input form__radio" type="radio" name="target" id="weight-gain" value="weight-gain">
-            </div>
-            <div class="form__group">
-              <label class="form__label" for="need-advice">Не знаю (Нужен ваш совет)</label>
-              <input class="form__input form__radio" type="radio" name="target" id="need-advice" value="need-advice">
+            <div class="form__content-wrap">
+              <div class="form__group">
+                <label class="form__label" for="weight-loss">Похудение</label>
+                <input class="form__input form__radio" type="radio" name="target" id="weight-loss" value="weight-loss" checked>
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="weight-gain">Набор массы</label>
+                <input class="form__input form__radio" type="radio" name="target" id="weight-gain" value="weight-gain">
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="need-advice">Не знаю (Нужен ваш совет)</label>
+                <input class="form__input form__radio" type="radio" name="target" id="need-advice" value="need-advice">
+              </div>
             </div>
           </fieldset>
           <fieldset class="form__fieldset">
@@ -85,28 +100,30 @@
           </fieldset>
           <fieldset class="form__fieldset form__fieldset--start">
             <legend class="form__title form__title--margin-none">Дополнительно</legend>
-            <div class="form__group">
-              <input class="form__input" type="checkbox" id="sweetener" name="sweetener" checked>
-              <label class="form__label" for="sweetener">сахарозаменитель</label>
+            <div class="form__wrap">
+              <div class="form__group">
+                <input class="form__input" type="checkbox" id="sweetener" name="sweetener" checked>
+                <label class="form__label" for="sweetener">сахарозаменитель</label>
+              </div>
+              <div class="form__group">
+                <input class="form__input" type="checkbox" id="water" name="water">
+                <label class="form__label" for="water">питьевая вода</label>
+              </div>
+              <div class="form__group">
+                <input class="form__input" type="checkbox" id="milk" name="milk">
+                <label class="form__label" for="milk">молоко</label>
+              </div>
+              <div class="form__group">
+                <input class="form__input" type="checkbox" id="vitamin" name="vitamin">
+                <label class="form__label" for="vitamin">витамины</label>
+              </div>
             </div>
-            <div class="form__group">
-              <input class="form__input" type="checkbox" id="water" name="water">
-              <label class="form__label" for="water">питьевая вода</label>
-            </div>
-            <div class="form__group">
-              <input class="form__input" type="checkbox" id="milk" name="milk">
-              <label class="form__label" for="milk">молоко</label>
-            </div>
-            <div class="form__group">
-              <input class="form__input" type="checkbox" id="vitamin" name="vitamin">
-              <label class="form__label" for="vitamin">витамины</label>
-            </div>
-          </fieldset>
-          <fieldset class="form__fieldset form__fieldset--center form__fieldset--submit">
-            <div class="form__group">
-              <input class="button button--green form__input request__submit" type="submit" value="отправить заявку">
-              <small class="request__small">* — Обязательные поля</small>
-            </div>
+            </fieldset>
+            <fieldset class="form__fieldset form__fieldset--center form__fieldset--submit">
+              <div class="form__group">
+                <input class="button button--green form__input request__submit" type="submit" value="отправить заявку">
+                <small class="request__small">* — Обязательные поля</small>
+              </div>
           </fieldset>
         </form>
       </div>

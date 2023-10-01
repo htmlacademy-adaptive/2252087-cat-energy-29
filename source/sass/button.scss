@@ -15,3 +15,9 @@
   color: $white;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .button--burger {
+    display: none;
+  }
+}

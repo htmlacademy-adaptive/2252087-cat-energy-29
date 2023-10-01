@@ -24,9 +24,26 @@ button {
   color: $special_dark-grey;
 }
 
+@media (min-width: $tablet-width) {
+  .page {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+
 .page--index {
   .header {
     border-bottom: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page--form,
+  .page--catalog {
+    .header {
+      border-bottom: none;
+    }
   }
 }
 
@@ -37,6 +54,14 @@ button {
   }
 }
 
+@media (min-width: $tablet-width) {
+  .page--form .page__main {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+
 .page__title {
   margin: 0;
   padding-top: 27px;
@@ -45,6 +70,15 @@ button {
   line-height: 36px;
   color: $black;
   font-family: "Oswald", "Arial", sans-serif;
+}
+
+@media (min-width: $tablet-width) {
+  .page__title {
+    padding-top: 65px;
+    padding-bottom: 54px;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .img {

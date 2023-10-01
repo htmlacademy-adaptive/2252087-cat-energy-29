@@ -6,6 +6,16 @@
   }
 }
 
+@media (min-width: $tablet-width) {
+  .promo {
+    .container {
+      position: relative;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
 .promo__info {
   position: relative;
   display: flex;
@@ -17,12 +27,27 @@
   z-index: 3;
 }
 
+@media (min-width: $tablet-width) {
+  .promo__info {
+    align-items: flex-start;
+    padding-top: 40px;
+    //padding-right: 120px;
+    //padding-left: 120px;
+  }
+}
+
 .promo__poster {
   position: absolute;
   z-index: 0;
   top: 0;
   background-color: $basic_green-2;
   background-image: url("../img/content/green_cat.jpg");
+}
+
+@media (min-width: $tablet-width) {
+  .promo__poster {
+    display: none;
+  }
 }
 
 .promo__title {
@@ -35,6 +60,18 @@
   text-align: center;
 }
 
+@media (min-width: $tablet-width) {
+  .promo__title {
+    max-width: 420px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: $black;
+    text-align: left;
+  }
+}
+
 .promo__slogan {
   margin: 0;
   margin-bottom: 29px;
@@ -43,6 +80,14 @@
   text-align: center;
   color: $white;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .promo__slogan {
+    color: $black;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .promo__link {
