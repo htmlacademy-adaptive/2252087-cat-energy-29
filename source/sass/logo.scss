@@ -7,6 +7,12 @@
   margin-right: 56px;
 }
 
+@media (min-width: $tablet-width) {
+  .logo__img {
+    margin-right: 13px;
+  }
+}
+
 .logo__img-text {
   height: 18px;
   width: 101px;
